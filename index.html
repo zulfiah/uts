@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="image slide/logo/sapi.ico" type="image/x-icon">
+    <title>Klinik PICOW</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body style="background-color: lightgrey;">
+  <!-- Navigation Bar (optional) -->
+  <nav class="navbar navbar-expand-lg shadow fixed-top position-fixed-top navbar-light bg-light navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="html/home.html">
+        <img src="image slide/logo/sapi.ico" alt="" width="30" height="" class="d-inline-block align-text-top">
+        Klinik PICOW
+      </a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" role="button" aria-expanded="false" href="html/layanan.html">Picow Stories</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#">Our Service</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarnavdropdown">
+              <li> <a class="dropdown-item" href="html/our-service-acne.html">Acne</a></li>
+              <li> <a class="dropdown-item" href="html/our-service-pigmentation.html">Pigmentation</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" href="#">Contact</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarnavdropdown">
+                <li> <a class="dropdown-item" href="our-customer.html">Our Customer</a></li>
+                <li> <a class="dropdown-item" href="kontak.html">Contact</a></li>
+            </ul>
+        </li>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <div class="container-fluid">
+            <a class="nav-link navbar-expand-lg" href="index.html">Log Out</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Form Section -->
+  <section class="py-5 pt-5">
+    <div class="container mt-5">
+      <div class="row ">
+        <div class=" card offset-md-3 p-3 col-md-6">
+          <h2 class="text-center ">Login</h2>
+          <form action="porto.html">
+            <label for="Username">Username</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text fs-1" id="basic-addon1"><i class='bx bx-child'></i></span>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                aria-describedby="basic-addon1">
+            </div>
+            <label for="Password">Password</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text fs-1" id="basic-addon1"><i class='bx bxs-lock-alt'></i></span>
+              <input type="text" class="form-control" placeholder="Password" aria-label="Password"
+                aria-describedby="basic-addon1">
+            </div>
+            <label for="Email">Email anda</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text fs-1" id="basic-addon1"><i class='bx bx-envelope'></i></i></span>
+              <input type="text" class="form-control" placeholder="Email Anda" aria-label="Email anda"
+                aria-describedby="basic-addon1">
+            </div>
+            <label for="Nomer Hp">Nomer HP</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text fs-1" id="basic-addon1"><i class='bx bx-phone'></i></i></span>
+              <input type="text" class="form-control" placeholder="Nomer Hp" aria-label="Nomer Hp"
+                aria-describedby="basic-addon1">
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="">
+                  <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                      aria-labelledby="exampleModalToggleLabel" tabindex="-1" data-mdb-backdrop="false" data-mdb-keyboard="true">
+                      <div class="modal-dialog modal-dialog-centered" data-bs-backdrop="false">
+                          <div class="modal-content">
+                              <div class="modal-header" >
+                                  <h5 class="modal-title" id="exampleModalToggleLabel">Peringatan</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                      aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  Apakah anda yakin untuk login?
+                              </div>
+                              <div class="modal-footer">
+                                <a href="html/home.html" class="text-light text-decoration-none">
+                                    <button type="button" class="btn btn-primary btn-sm"
+                                        value="Submit Button">Ya</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Submit</a>
+              </div>
+              </div>
+              <div class="col pl-5 ml-5 my-2">Belum punya akun?
+                <a class="text-right" href="html/Register.html">Sign up
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/654a5864f2439e1631ecb11b/1hen3tar3';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+
+</html>
